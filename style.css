@@ -1,0 +1,157 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fffaf5;
+  color: #594744;
+  line-height: 1.6;
+}
+
+header, .nav {
+  background: #f3e4d6;
+  padding: 15px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.brand, .nav a {
+  color: #80545b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.hero {
+  background: #f7e5e7;
+  padding: 45px 20px;
+  text-align: center;
+}
+
+.hero-content, .section {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section {
+  padding: 30px 20px;
+}
+
+.section-title {
+  color: #a76572;
+}
+
+.section-lead, .mini-label, .form-note {
+  color: #80545b;
+}
+
+.info-grid, .media-grid, .render-grid, .contact-layout, .levels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.info-card, .media-card, .audience, .function-box, .technical, .contact-copy, .contact-form, .render-placeholder, .video-box {
+  flex: 1 1 250px;
+  padding: 18px;
+  background: #f8eeee;
+  border: 1px solid #e8cbd0;
+  border-radius: 10px;
+}
+
+.tag, .alert, .note {
+  display: inline-block;
+  padding: 8px 12px;
+  margin: 5px 0;
+  background: #f3e4d6;
+  border-radius: 8px;
+}
+
+.button, button {
+  display: inline-block;
+  padding: 10px 16px;
+  background: #c98795;
+  color: white;
+  border: 0;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0 14px;
+  border: 1px solid #d9b8b8;
+  border-radius: 6px;
+  font: inherit;
+}
+
+textarea {
+  min-height: 120px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #e8cbd0;
+  text-align: left;
+}
+
+th {
+  background: #f3e4d6;
+}
+
+img, video, iframe {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  padding: 20px;
+  background: #f3e4d6;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .nav {
+    flex-direction: column;
+  }
+
+  .section {
+    padding: 24px 15px;
+  }
+}

@@ -1,0 +1,149 @@
+.img1{
+    width: 250px;
+}
+.img2{
+    float: right;
+    width: 150px;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', sans-serif;
+}
+
+body{
+    background-color:#f5e6cc;
+    color:#4d4035;
+    line-height:1.6;
+}
+
+.hero{
+    background:linear-gradient(135deg,#e8d3b5,#f7d6e0);
+    text-align:center;
+    padding:40px 20px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.logo{
+    width:140px;
+    border-radius:50%;
+    margin-bottom:15px;
+    border:4px solid  #b77b8e;
+}
+
+.hero h1{
+    font-size:3rem;
+    color:#7b5c46;
+}
+
+.hero p{
+    font-size:1.2rem;
+    margin-top:10px;
+}
+
+main{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+    padding:30px 0;
+}
+
+.card{
+    background:#fff8ef;
+    margin-bottom:25px;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    border-left:8px solid #e6c89c;
+}
+
+.card h2{
+    color:#b77b8e;
+    margin-bottom:15px;
+}
+
+.imagen-principal{
+    width:100%;
+    max-height:450px;
+    object-fit:cover;
+    border-radius:15px;
+    margin-bottom:20px;
+}
+
+ul{
+    padding-left:20px;
+}
+
+.galeria{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    margin-top:20px;
+}
+
+.item{
+    background:#f9efe0;
+    border-radius:15px;
+    overflow:hidden;
+    text-align:center;
+    transition:0.3s;
+}
+
+.item:hover{
+    transform:translateY(-5px);
+}
+
+.item img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+.item p{
+    padding:10px;
+    font-weight:bold;
+}
+
+footer{
+    background:#e8d3b5;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+    color:#5a4635;
+    font-weight:bold;
+}
+.button{
+    background:   #b77b8e;
+    border: #b77b8e;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.header2{
+    background:linear-gradient(135deg,#f8aac3,#b67b8c);
+    display: flex;
+    background-color: #f7d6e0;
+    justify-content: space-evenly;
+    height: 50px;
+    text-align:center;
+    padding:20px 20px;
+    box-shadow:3px 3px 8px 
+
+   
+}
+.tec2{
+    
+    float: left;
+    width: 45px;
+
+}
+.but{
+    background:   #b77b8e;
+    border: #b77b8e;
+    width: 150px;
+    height: 70px;
+    font-size: 20px;
+    border-radius: 10px;
+}
