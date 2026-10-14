@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>PLANTIX | ECOVIDA</title><link rel="stylesheet" href="style2.css">
+</head>
+<body>
+<header class="hero" id="inicio">
+    <nav class="nav"><a class="brand" href="#inicio">PLANTIX</a>
+    <div class="nav-links">
+        <a href="#proyecto">Proyecto</a>
+        <a href="#documentacion">Documentación</a>
+        <a href="#materiales">Materiales</a>
+        <a href="#presentacion">Presentación</a>
+        <a href="#publico">Público objetivo</a>
+        <a href="#contacto">Contacto</a>
+    </div>
+    </nav>
+    <div class="hero-content">
+        <span class="tag">ECOVIDA · 6°1</span>
+        <h1>PLANTIX</h1>
+        <p>Maceta inteligente para el cuidado de tus plantas.</p>
+        <a class="button" href="#documentacion">Ver documentación</a>
+    </div>
+</header>
+<main>
+<section class="section" id="proyecto">
+    <div class="section-title">
+        <h2>Datos del proyecto</h2>
+    </div>
+    <div class="info-grid">
+    <article class="info-card">
+        <h3>Grupo</h3>
+        <p>ECOVIDA</p>
+    </article>
+    <article class="info-card">
+        <h3>Integrantes</h3>
+        <p>Hanna De Francisco<br>Yanina Benitez<br>Moira Fuentes</p>
+    </article>
+    <article class="info-card">
+        <h3>Curso</h3>
+        <p>6°1</p>
+    </article>
+    <article class="info-card">
+        <h3> Materia </h3>
+        <p> Desarrollo de Aplicaciones Web Estáticas</p>
+    </article>
+    </div><div class="function-box"><div>
+        <span class="mini-label">¿Cómo funciona?</span>
+        <h3> Plantix controla la humedad de la tierra.</h3>
+        <p> El sensor mide la humedad del suelo. Cuando el nivel es adecuado se enciende el LED verde. 
+            Si la humedad baja de 500, se enciende el LED rojo y suena el buzzer para avisar que la planta necesita riego.</p>
+    </div>
+    <div class="levels"><div>
+        <strong> 0–300</strong><span> Tierra muy seca</span></div>
+        <div><strong> 300–600</strong><span> Humedad media</span></div>
+        <div><strong> 600–1023</strong><span> Tierra húmeda</span></div>
+        <div class="alert"><strong> 500 </strong><span> Alerta de riego</span></div>
+    </div></section>
+<section class="section" id="documentacion">
+    <div class="section-title">
+        <h2>Documentación y viabilidad</h2>
+    </div>
+    <div class="technical"><div>
+        <span class="mini-label"> Ficha técnica </span>
+        <h3> Una maceta que avisa cuándo necesita agua.</h3>
+        <p>
+            Plantix es un prototipo de maceta inteligente realizado con Arduino.
+            Su objetivo es detectar el nivel de humedad de la tierra y avisar al usuario mediante luces y sonido cuando la planta necesita agua.
+        </p>
+        </div>
+        <div class="technical-list">
+            <div><b> Controlador </b>
+            <span> Arduino Uno R3 </span></div>
+            <div><b> Sensor </b><span> YL-69 + FC-28 </span></div>
+            <div><b> Indicadores </b><span> LED rojo + LED verde </span></div><div>
+                <b> Alerta </b><span> Buzzer </span></div><div><b> Montaje </b>
+                <span> Protoboard + jumpers </span>
+            </div>
+            <div><b> Programación </b><span> Arduino IDE </span></div>
+        </div>
+    </section>
+<section class="section" id="materiales">
+    <div class="section-title">
+        <h2>Materiales y presupuesto</h2></div>
+        <p class="section-lead">Estimación del costo de los materiales utilizados para fabricar el prototipo.</p>
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Material</th>
+                        <th>Cantidad</th>
+                        <th>Precio unitario</th>
+                        <th>Total</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Arduino Uno R3</td>
+                        <td>1</td>
+                        <td>$9.569</td>
+                        <td>$9.569</td>
+                    </tr>
+                    <tr>
+                        <td>Sensor de humedad</td>
+                        <td>1</td><td>$4.064</td>
+                        <td>$4.064</td>
+                    </tr>
+                    <tr>
+                        <td>LED rojo y verde</td>
+                        <td>2</td>
+                        <td>$150</td>
+                        <td>$300</td>
+                    </tr>
+                    <tr>
+                        <td>Resistencias</td>
+                        <td>2</td>
+                        <td>$60</td>
+                        <td>$120</td>
+                    </tr>
+                    <tr>
+                        <td>Cables jumper</td>
+                        <td>8 aprox.</td>
+                        <td>$300</td>
+                        <td>$2.400</td>
+                    </tr>
+                    <tr>
+                        <td>Protoboard</td>
+                        <td>1</td>
+                        <td>$7.294</td>
+                        <td>$7.294</td>
+                    </tr>
+                    <tr>
+                        <td>Buzzer</td>
+                        <td>1</td>
+                        <td>$3.628</td>
+                        <td>$3.628</td>
+                    </tr>
+                    <tr>
+                        <td>Maceta con tierra y agua</td>
+                        <td>1</td>
+                        <td>$4.000</td>
+                        <td>$4.000</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Presupuesto aproximado</td>
+                        <td>$31.375</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <p class="note">*Los precios son estimativos y pueden variar según proveedor y fecha.</p>
+    </section>
+<section class="section" id="presentacion">
+    <div class="section-title">
+        <h2>Presentación del producto</h2>
+    </div>
+    <div class="media-grid"><div class="media-card"><span class="mini-label">Demostración</span>
+        <h3>Video de funcionamiento</h3>
+        <div class="video-box"><div class="play"> <a href="https://www.youtube.com/watch?v=moa6d8DboCo"> VIDEO FUNCIONAMIENTO </a> 
+        </div>
+       
+       
+    </div>
+</div>
+<div class="media-card">
+    <span class="mini-label">Diseño</span>
+    <h3>Renders / imágenes 3D</h3>
+    <div class="render-grid">
+        <div class="render-placeholder">RENDER 01<small>Agregar imagen 3D</small>
+    </div>
+    <div class="render-placeholder">RENDER 02<small>Agregar otra vista</small>
+    </div>
+</div>
+<p class="note">Cuando tengas los renders, reemplazá estos espacios por imágenes.</p>
+</div>
+</section>
+<section class="section" id="publico"><div class="section-title">
+    <h2>Público objetivo</h2>
+</div>
+<div class="audience"><div class="audience-icon"></div>
+<div>
+    <h3>¿A quién está dirigido Plantix?</h3>
+    <p>Plantix está dirigido a personas que tienen plantas en sus hogares, oficinas o espacios de estudio y que a veces se olvidan de regarlas.
+        El producto busca resolver el problema de no saber cuándo la tierra está demasiado seca, utilizando una alerta visual y sonora que indica cuándo es necesario regar. 
+        También puede ser útil para personas que quieren incorporar tecnología a tareas cotidianas relacionadas con el cuidado de sus plantas.
+    </p>
+</div>
+</section>
+<section class="section" id="contacto">
+    <div class="section-title">
+        <h2>Contacto</h2>
+    </div>
+    <div class="contact-layout">
+        <div class="contact-copy"><span class="mini-label">¿Querés saber más?</span>
+            <h3>Comunicate con EcoVida.</h3>
+            <p>Completá el formulario para dejar una consulta sobre Plantix.</p>
+            <div class="contact-points"><span>✓ Nombre</span>
+                <span>✓ Email</span>
+                <span>✓ Mensaje</span>
+                <span>✓ Formulario preparado para Netlify Forms</span>
+            </div></div><form name="contacto-plantix" method="POST" action="gracias.html" data-netlify="true" netlify-honeypot="bot-field" class="contact-form"><input type="hidden" name="form-name" value="contacto-plantix"><p class="hidden"><label>No completar: <input name="bot-field"></label></p><label for="nombre">Nombre</label><input id="nombre" name="nombre" type="text" placeholder="Tu nombre" required><label for="email">Email</label><input id="email" name="email" type="email" placeholder="hannadefrancisco27@gmail.com" required>
+                <label for="mensaje">Mensaje</label><textarea id="mensaje" name="mensaje" rows="6" placeholder="Escribí tu consulta..." required></textarea><button type="submit">Enviar mensaje</button><p class="form-note">Al publicar en Netlify, los mensajes se gestionan desde la sección Forms del sitio.</p></form></div></section>
+</main><footer><strong>PLANTIX · ECOVIDA</strong><span>Maceta inteligente para el cuidado de tus plantas · 2026</span></footer>
+</body></html>
